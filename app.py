@@ -5,7 +5,7 @@ from backend import get_answer, get_vector_store
 # -----------------------------
 # Page config
 # -----------------------------
-st.set_page_config(page_title="Consumer Knowledge Assistant", layout="wide")
+st.set_page_config(page_title="Consumer Rights Assistant", layout="wide")
 
 st.markdown(
     """
@@ -23,7 +23,7 @@ st.markdown(
 # -----------------------------
 col1, col2, col3 = st.columns([1, 6, 1])
 with col2:
-    st.title("ConsumerAnalyticsGPT ⚖️🏛️")
+    st.title("Consumer Analytics Assisstant⚖️🏛️")
 
 st.write("Ask questions about consumer protection and get instant answers!")
 
