@@ -10,3 +10,4 @@ sentence-transformers
 transformers
 torch
 accelerate
+langchain_text_splitters
