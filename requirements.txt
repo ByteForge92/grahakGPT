@@ -12,3 +12,4 @@ torch
 accelerate
 langchain_text_splitters
 langchain-google-genai
+langchain-google-genai==1.0.10
