@@ -1,0 +1,397 @@
+CONSUMER PROTECTION ACT, 2019 - KNOWLEDGE BASE
+================================================
+Source: The Consumer Protection Act, 2019 (Act No. 35 of 2019)
+Enacted by: Parliament of India
+Date of Assent: 9th August, 2019
+Came into Force: 20th July, 2020
+
+=======================================================
+CHAPTER I: OVERVIEW AND DEFINITIONS
+=======================================================
+
+The Consumer Protection Act, 2019 is an Act to provide for protection of the interests of consumers and to establish authorities for timely and effective administration and settlement of consumer disputes. It repeals and replaces the Consumer Protection Act, 1986. The Act extends to the whole of India except the State of Jammu and Kashmir. It applies to all goods and services unless specifically exempted by the Central Government.
+
+WHAT IS A CONSUMER?
+A consumer is any person who:
+- Buys any goods for a consideration (paid, promised, partly paid, or under deferred payment), including any user of such goods with the buyer's approval, but does NOT include a person who obtains goods for resale or for any commercial purpose.
+- Hires or avails of any service for a consideration, including any beneficiary of such service with the first person's approval, but does NOT include a person who avails the service for commercial purpose.
+Note: "Commercial purpose" does not include use of goods bought exclusively for earning one's livelihood through self-employment. The expressions "buys any goods" and "hires or avails any services" include offline or online transactions, teleshopping, direct selling, or multi-level marketing.
+
+WHAT IS A CONSUMER DISPUTE?
+A consumer dispute means a dispute where the person against whom a complaint has been made denies or disputes the allegations in the complaint.
+
+WHAT IS A COMPLAINT?
+A complaint is any allegation in writing made by a complainant for obtaining relief under this Act. A complaint can be filed for:
+- Unfair contract, unfair trade practice, or restrictive trade practice by a trader or service provider.
+- Goods bought suffering from one or more defects.
+- Services hired or availed suffering from deficiency.
+- A trader or service provider charging a price in excess of the price fixed by law, displayed on goods/package, or agreed between parties.
+- Goods hazardous to life and safety being offered for sale in contravention of safety standards.
+- Services hazardous or likely to be hazardous to life and safety being offered.
+- A claim for product liability action against a product manufacturer, product seller, or product service provider.
+
+WHO CAN FILE A COMPLAINT (COMPLAINANT)?
+- A consumer.
+- Any voluntary consumer association registered under any law.
+- The Central Government or any State Government.
+- The Central Consumer Protection Authority (CCPA).
+- One or more consumers where there are numerous consumers having the same interest.
+- In case of death of a consumer, his legal heir or legal representative.
+- In case of a consumer being a minor, his parent or legal guardian.
+
+CONSUMER RIGHTS (Section 2(9)):
+1. Right to be protected against the marketing of goods, products or services which are hazardous to life and property.
+2. Right to be informed about the quality, quantity, potency, purity, standard and price of goods, products or services, to protect against unfair trade practices.
+3. Right to be assured access to a variety of goods, products or services at competitive prices.
+4. Right to be heard and to be assured that consumer's interests will receive due consideration at appropriate forums.
+5. Right to seek redressal against unfair trade practices or restrictive trade practices or unscrupulous exploitation.
+6. Right to consumer awareness.
+
+KEY DEFINITIONS:
+- Advertisement: Any audio or visual publicity, representation, endorsement or pronouncement made by means of light, sound, smoke, gas, print, electronic media, internet or website and includes any notice, circular, label, wrapper, invoice or such other documents.
+- Defect: Any fault, imperfection or shortcoming in the quality, quantity, potency, purity or standard required to be maintained by law or under any contract in relation to any goods or product.
+- Deficiency: Any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance required to be maintained by law or undertaken to be performed, including any act of negligence or omission or commission, or deliberate withholding of relevant information from the consumer.
+- E-commerce: Buying or selling of goods or services including digital products over a digital or electronic network.
+- Misleading Advertisement: An advertisement which falsely describes a product or service; gives a false guarantee or is likely to mislead consumers as to nature, substance, quantity or quality; conveys a representation that constitutes an unfair trade practice; or deliberately conceals important information.
+- Product Liability: The responsibility of a product manufacturer or product seller to compensate for any harm caused to a consumer by a defective product manufactured or sold, or by deficiency in services relating thereto.
+- Unfair Contract: A contract between a manufacturer/trader/service provider and a consumer having terms that cause significant change in the rights of the consumer, such as requiring excessive security deposits, imposing disproportionate penalties, refusing early repayment, allowing unilateral termination without reasonable cause, permitting assignment to the detriment of the consumer, or imposing unreasonable charges or obligations.
+- Spurious Goods: Goods which are falsely claimed to be genuine.
+- Restrictive Trade Practice: A trade practice which tends to bring about manipulation of price or conditions of delivery, or affects flow of supplies in a market in a manner that imposes unjustified costs or restrictions on consumers.
+- Service: Service of any description made available to potential users, including banking, financing, insurance, transport, processing, supply of electrical or other energy, telecom, boarding or lodging, housing construction, entertainment, amusement, or purveying of news or information. Does NOT include rendering of any service free of charge or under a contract of personal service.
+
+UNFAIR TRADE PRACTICES include:
+- Making false statements about goods or services regarding standard, quality, grade, composition, style, model, sponsorship, approval, or characteristics.
+- Falsely representing rebuilt, second-hand, renovated, or old goods as new.
+- Making false or misleading representations about the need or usefulness of goods or services.
+- Giving unsubstantiated warranties or guarantees.
+- Materially misleading the public about the price of a product.
+- Giving false or misleading facts disparaging the goods or services of another person.
+- Permitting publication of advertisements for bargain-price goods that are not genuinely intended to be sold at that price.
+- Offering gifts or prizes without intention of providing them, or creating impression that something is given free when it is not.
+- Conducting contests or lotteries for promoting sales (except those prescribed).
+- Withholding final results of a prize scheme from participants.
+- Selling goods not complying with prescribed standards related to performance, composition, design, or safety.
+- Hoarding or destroying goods, or refusing to sell goods, so as to raise the cost.
+- Manufacturing or offering spurious goods for sale, or adopting deceptive practices.
+- Not issuing bill, cash memo, or receipt for goods sold or services rendered.
+- Refusing to take back defective goods or refund consideration within the stipulated period or within 30 days.
+- Disclosing a consumer's personal information given in confidence without the consumer's consent or as permitted by law.
+
+=======================================================
+CHAPTER II: CONSUMER PROTECTION COUNCILS
+=======================================================
+
+CENTRAL CONSUMER PROTECTION COUNCIL:
+The Central Government shall establish the Central Consumer Protection Council (Central Council), which is an advisory council. It is chaired by the Minister-in-charge of the Department of Consumer Affairs. The Central Council shall meet at least once every year. Its object is to render advice on promotion and protection of consumers' rights under the Act.
+
+STATE CONSUMER PROTECTION COUNCILS:
+Every State Government shall establish a State Consumer Protection Council (State Council), an advisory council chaired by the State Minister-in-charge of Consumer Affairs. The State Council shall meet at least twice every year. Its object is to render advice on promotion and protection of consumer rights within the State.
+
+DISTRICT CONSUMER PROTECTION COUNCIL:
+The State Government shall establish a District Consumer Protection Council (District Council) in every district, chaired by the Collector of the district. The District Council shall meet at least twice every year. Its object is to render advice on promotion and protection of consumer rights within the district.
+
+=======================================================
+CHAPTER III: CENTRAL CONSUMER PROTECTION AUTHORITY (CCPA)
+=======================================================
+
+ESTABLISHMENT:
+The Central Government shall establish the Central Consumer Protection Authority (Central Authority) to regulate matters relating to violation of rights of consumers, unfair trade practices, and false or misleading advertisements which are prejudicial to the interests of public and consumers, and to promote, protect and enforce the rights of consumers as a class. The Central Authority consists of a Chief Commissioner and such number of other Commissioners as may be prescribed. Its headquarters are in the National Capital Region of Delhi.
+
+INVESTIGATION WING:
+The Central Authority shall have an Investigation Wing headed by a Director-General for conducting inquiry or investigation. The Director-General may conduct inquiries and delegate powers to Additional Director-General, Director, Joint Director, Deputy Director, or Assistant Director.
+
+POWERS AND FUNCTIONS OF CCPA:
+- Protect, promote and enforce the rights of consumers as a class, and prevent violation of consumer rights.
+- Prevent unfair trade practices.
+- Ensure no false or misleading advertisement is made of any goods or services.
+- Inquire or cause investigation into violations of consumer rights or unfair trade practices, either suo motu or on complaint.
+- File complaints before District, State, or National Commissions.
+- Intervene in proceedings before any Commission regarding violation of consumer rights or unfair trade practices.
+- Review matters relating to consumer rights and recommend remedial measures.
+- Undertake and promote research in the field of consumer rights.
+- Spread and promote awareness on consumer rights.
+- Issue safety notices to alert consumers against dangerous or hazardous goods or services.
+- Advise Ministries and Departments on consumer welfare measures.
+- Issue guidelines to prevent unfair trade practices.
+
+POWER TO RECALL GOODS:
+Where the Central Authority is satisfied that there is sufficient evidence of violation of consumer rights or unfair trade practice, it may order: recalling of goods or withdrawal of services which are dangerous or unsafe; reimbursement of prices to purchasers; and discontinuation of unfair practices. The person must be given an opportunity of being heard before such order.
+
+PENALTIES FOR FALSE OR MISLEADING ADVERTISEMENTS:
+- The Central Authority may direct the trader, manufacturer, endorser, advertiser, or publisher to discontinue or modify the false or misleading advertisement.
+- A penalty up to Rs. 10 lakh may be imposed on a manufacturer or endorser; up to Rs. 50 lakh for every subsequent contravention.
+- An endorser may be prohibited from making endorsements for a period up to 1 year; up to 3 years for subsequent contraventions.
+- A person who publishes a misleading advertisement may be penalised up to Rs. 10 lakh.
+- An endorser is not liable if they exercised due diligence to verify the veracity of the claims in the advertisement.
+
+APPEALS FROM CCPA ORDERS:
+A person aggrieved by any order of the Central Authority (under sections 20 and 21) may appeal to the National Commission within 30 days from the date of receipt of the order.
+
+=======================================================
+CHAPTER IV: CONSUMER DISPUTES REDRESSAL COMMISSIONS (CDRCs)
+=======================================================
+
+THREE-TIER SYSTEM:
+Consumer Disputes Redressal Commissions are established at three levels — District, State, and National.
+
+DISTRICT CONSUMER DISPUTES REDRESSAL COMMISSION (District Commission):
+- Established by the State Government in each district of the State (more than one may be established in a district).
+- Consists of a President and not less than two members.
+- Jurisdiction: Complaints where the value of goods or services paid as consideration does not exceed Rs. 1 crore.
+- A complaint shall be instituted where: the opposite party resides or carries on business; the cause of action arises; or the complainant resides or works for gain.
+- Complaints shall be disposed of within 3 months (or 5 months if analysis or testing of commodities is required).
+- The District Commission can review any order passed by it if there is an error apparent on the face of the record, either on its own motion or on application within 30 days.
+
+APPEAL FROM DISTRICT COMMISSION:
+Any person aggrieved by an order of the District Commission may appeal to the State Commission within 45 days. The State Commission may condone delay if there is sufficient cause. The appellant must deposit 50% of the amount awarded by the District Commission before the appeal is entertained. No appeal lies from an order passed pursuant to a settlement by mediation.
+
+STATE CONSUMER DISPUTES REDRESSAL COMMISSION (State Commission):
+- Established by the State Government in the State (usually functions at the State capital).
+- Consists of a President and not less than four members.
+- Jurisdiction: Complaints where value of goods or services exceeds Rs. 1 crore but does not exceed Rs. 10 crore; complaints against unfair contracts where value does not exceed Rs. 10 crore; and appeals against orders of any District Commission within the State.
+- The State Commission can call for records and pass appropriate orders in consumer disputes decided by any District Commission within the State, where the District Commission has acted beyond or without jurisdiction.
+- The State Commission may declare any terms of a contract that are unfair to any consumer to be null and void.
+- The State Commission can review any order passed by it if there is an error apparent on the face of the record, within 30 days.
+
+APPEAL FROM STATE COMMISSION:
+Any person aggrieved by an order of the State Commission (in original jurisdiction over complaints) may appeal to the National Commission within 30 days. The appellant must deposit 50% of the amount awarded before the appeal is entertained. An appeal also lies to the National Commission from any order passed in appeal by any State Commission, if the case involves a substantial question of law.
+
+NATIONAL CONSUMER DISPUTES REDRESSAL COMMISSION (National Commission):
+- Established by the Central Government (functions at the National Capital Region, New Delhi).
+- Consists of a President and not less than four members. The President and members hold office for up to five years and are not to exceed 70 years (President) or 67 years (members) of age.
+- Jurisdiction: Complaints where value of goods or services exceeds Rs. 10 crore; complaints against unfair contracts where value exceeds Rs. 10 crore; appeals against orders of any State Commission; and appeals against orders of the Central Authority.
+- The National Commission can call for records and pass appropriate orders in consumer disputes decided by any State Commission where the State Commission has acted beyond or without jurisdiction.
+- The National Commission may declare any terms of a contract that are unfair to any consumer to be null and void.
+- The National Commission can review any order passed by it if there is an error apparent on the face of the record, within 30 days.
+- The National Commission has administrative control over all State Commissions in terms of monitoring performance, investigating allegations against Commission members, issuing instructions on uniform procedure, and overseeing functioning.
+
+APPEAL FROM NATIONAL COMMISSION:
+Any person aggrieved by an original-jurisdiction order of the National Commission may appeal to the Supreme Court within 30 days. The appellant must deposit 50% of the amount awarded.
+
+JURISDICTION SUMMARY:
+- District Commission: Value up to Rs. 1 crore.
+- State Commission: Value above Rs. 1 crore up to Rs. 10 crore.
+- National Commission: Value above Rs. 10 crore.
+
+LIMITATION PERIOD:
+A complaint must be filed within 2 years from the date on which the cause of action has arisen. Delay may be condoned if the complainant shows sufficient cause, with reasons recorded in writing.
+
+HOW TO FILE A COMPLAINT:
+A complaint may be filed with the District Commission by the consumer, a recognised consumer association, one or more consumers with the same interest (with permission of the Commission), or the Central Government/Central Authority/State Government. Complaints can be filed electronically. Every complaint must be accompanied with the prescribed fee. Complaints are heard on the basis of affidavit and documentary evidence.
+
+WHAT RELIEF CAN THE COMMISSION GRANT?
+The Commission, if it finds allegations proved, may direct the opposite party to:
+- Remove the defect in goods.
+- Replace goods with new goods free from defects.
+- Return the price or charges paid along with interest.
+- Pay compensation for any loss or injury due to negligence (including punitive damages).
+- Pay compensation in a product liability action.
+- Remove deficiencies in services.
+- Discontinue and not repeat unfair trade practices or restrictive trade practices.
+- Not offer hazardous goods for sale.
+- Withdraw hazardous goods from sale.
+- Cease manufacture of hazardous goods or desist from offering hazardous services.
+- Pay a sum to consumers who are not individually identifiable (minimum 25% of the value of defective goods/services).
+- Issue corrective advertisements to neutralise the effect of a misleading advertisement.
+- Provide adequate costs to parties.
+- Cease and desist from issuing misleading advertisements.
+
+ENFORCEMENT OF ORDERS:
+Every order of a District, State, or National Commission shall be enforced in the same manner as a decree of a civil court.
+
+PENALTY FOR NON-COMPLIANCE:
+Whoever fails to comply with any order of the District, State, or National Commission shall be punishable with imprisonment for a term of not less than 1 month and up to 3 years, and/or with fine of not less than Rs. 25,000 and up to Rs. 1 lakh.
+
+REFERENCE TO MEDIATION:
+At the first hearing of a complaint after admission, or at any later stage, if the Commission finds elements of a settlement, it may direct the parties to consent for mediation within 5 days. If parties agree, the matter is referred to mediation. Cases prescribed by rules may not be referred to mediation.
+
+PROCEEDINGS:
+- Every proceeding shall be conducted by the President and at least one member sitting together.
+- A complaint shall be admitted or rejected within 21 days of filing (if not decided within 21 days, deemed admitted).
+- The Commission has powers of a civil court for summoning witnesses, requiring production of documents, receiving evidence on affidavit, and issuing commissions.
+- Every proceeding is deemed a judicial proceeding.
+
+=======================================================
+CHAPTER V: MEDIATION
+=======================================================
+
+CONSUMER MEDIATION CELL:
+The State Government shall establish a consumer mediation cell attached to each District and State Commission. The Central Government shall establish a consumer mediation cell attached to the National Commission. The cell maintains a list of empanelled mediators, list of cases handled, and records of proceedings.
+
+EMPANELMENT OF MEDIATORS:
+The National, State, or District Commission shall prepare a panel of mediators. The panel is valid for 5 years; mediators are eligible for re-empanelment. Mediators must disclose any personal, professional, or financial interest in the outcome, any circumstances that may raise doubt as to their independence or impartiality.
+
+MEDIATION PROCEDURE:
+Mediation is held in the consumer mediation cell attached to the respective Commission. The mediator shall have regard to the rights and obligations of the parties, trade usages, and circumstances giving rise to the dispute, guided by principles of natural justice.
+
+SETTLEMENT THROUGH MEDIATION:
+If an agreement is reached (wholly or in part), its terms shall be reduced to writing and signed by the parties. The mediator shall prepare a settlement report and forward it to the Commission. The Commission shall pass an order recording the settlement within 7 days. If no agreement is reached, the Commission shall continue to hear the consumer dispute.
+
+=======================================================
+CHAPTER VI: PRODUCT LIABILITY
+=======================================================
+
+PRODUCT LIABILITY ACTION:
+A product liability action may be brought by a complainant against a product manufacturer, product service provider, or product seller for any harm caused by a defective product.
+
+LIABILITY OF PRODUCT MANUFACTURER:
+A product manufacturer is liable if:
+- The product contains a manufacturing defect.
+- The product is defective in design.
+- There is a deviation from manufacturing specifications.
+- The product does not conform to the express warranty.
+- The product fails to contain adequate instructions of correct usage or warnings regarding improper or incorrect usage.
+A product manufacturer is liable even if they prove they were not negligent or fraudulent in making the express warranty.
+
+LIABILITY OF PRODUCT SERVICE PROVIDER:
+A product service provider is liable if:
+- The service provided was faulty, imperfect, deficient, or inadequate.
+- There was an act of omission, commission, negligence, or conscious withholding of information which caused harm.
+- The service provider did not issue adequate instructions or warnings to prevent harm.
+- The service did not conform to the express warranty or terms of the contract.
+
+LIABILITY OF PRODUCT SELLER:
+A product seller (who is not the manufacturer) is liable if:
+- They exercised substantial control over the designing, testing, manufacturing, packaging, or labelling.
+- They altered or modified the product and such alteration was the substantial factor in causing harm.
+- They made an express warranty independently which the product failed to conform to.
+- The product was sold by them and the identity of the manufacturer is not known or the manufacturer cannot be served with notice.
+- They failed to exercise reasonable care in assembling, inspecting or maintaining the product, or failed to pass on warnings or instructions of the manufacturer.
+
+EXCEPTIONS TO PRODUCT LIABILITY:
+- A product liability action cannot be brought against the product seller if the product was misused, altered, or modified by the consumer at the time of harm.
+- A product manufacturer is not liable for failure to warn if: the product was purchased by an employer for workplace use and warnings were given to the employer; warnings were given to a purchaser of a component/material; the product was legally meant to be used only by experts and the manufacturer employed reasonable means to give warnings to such experts; or the complainant was under the influence of alcohol or an unprescribed drug while using the product.
+- A product manufacturer is not liable for failure to warn about a danger that is obvious or commonly known to the user.
+
+=======================================================
+CHAPTER VII: OFFENCES AND PENALTIES
+=======================================================
+
+PENALTY FOR NON-COMPLIANCE OF CCPA DIRECTION (Section 88):
+Whoever fails to comply with any direction of the Central Authority (under sections 20 and 21) shall be punished with imprisonment up to 6 months and/or fine up to Rs. 20 lakh.
+
+PUNISHMENT FOR FALSE OR MISLEADING ADVERTISEMENT (Section 89):
+Any manufacturer or service provider who causes a false or misleading advertisement to be made, prejudicial to consumers, shall be punished with imprisonment up to 2 years and fine up to Rs. 10 lakh. For every subsequent offence: imprisonment up to 5 years and fine up to Rs. 50 lakh.
+
+PUNISHMENT FOR ADULTERATED PRODUCTS (Section 90):
+- No injury to consumer: imprisonment up to 6 months and fine up to Rs. 1 lakh.
+- Injury not amounting to grievous hurt: imprisonment up to 1 year and fine up to Rs. 3 lakh.
+- Grievous hurt: imprisonment up to 7 years and fine up to Rs. 5 lakh.
+- Death of consumer: imprisonment of not less than 7 years (up to life imprisonment) and fine not less than Rs. 10 lakh.
+Offences causing grievous hurt or death are cognizable and non-bailable. The court may also suspend or cancel the offender's licence.
+
+PUNISHMENT FOR SPURIOUS GOODS (Section 91):
+- Injury not amounting to grievous hurt: imprisonment up to 1 year and fine up to Rs. 3 lakh.
+- Grievous hurt: imprisonment up to 7 years and fine up to Rs. 5 lakh.
+- Death of consumer: imprisonment of not less than 7 years (up to life imprisonment) and fine not less than Rs. 10 lakh.
+Offences causing grievous hurt or death are cognizable and non-bailable.
+
+COGNIZANCE OF OFFENCE:
+No court shall take cognizance of any offence under sections 88 and 89 except on a complaint filed by the Central Authority or any officer authorised by it.
+
+VEXATIOUS SEARCH (Section 93):
+Any officer who conducts a search or seizure knowing that there are no reasonable grounds for doing so shall be punished with imprisonment up to 1 year and/or fine up to Rs. 10,000.
+
+=======================================================
+CHAPTER VIII: MISCELLANEOUS PROVISIONS
+=======================================================
+
+E-COMMERCE AND DIRECT SELLING (Section 94):
+The Central Government may take such measures as may be prescribed to prevent unfair trade practices in e-commerce, direct selling, etc., and to protect the interests and rights of consumers. The Consumer Protection (E-Commerce) Rules, 2020 have been notified under this provision. These rules outline the responsibilities of e-commerce entities and specify their liabilities, including provisions for customer grievance redressal.
+
+PUBLIC SERVANTS:
+Presidents and members of the District, State, and National Commissions, officers and employees thereof, the Chief Commissioner, Commissioner, Director General, and all persons performing duties under this Act are deemed to be public servants.
+
+COMPOUNDING OF OFFENCES:
+Offences punishable under sections 88 and 89 may be compounded by the Central Authority, either before or after institution of prosecution, on payment of a prescribed amount (not exceeding the maximum fine for the offence). No compounding for a second/similar offence within 3 years of the first compounded offence.
+
+PROTECTION OF GOOD FAITH ACTIONS:
+No suit, prosecution, or other legal proceeding shall lie against Presidents, members, Chief Commissioner, Commissioner, officers, employees, or any person performing duties under this Act, for any act done in good faith in pursuance of this Act.
+
+ACT NOT IN DEROGATION OF OTHER LAWS (Section 100):
+The provisions of this Act are in addition to and not in derogation of any other law for the time being in force.
+
+=======================================================
+PRACTICAL GUIDE: HOW TO FILE A CONSUMER COMPLAINT
+=======================================================
+
+STEP 1 - DETERMINE THE APPROPRIATE FORUM:
+- If your claim value is up to Rs. 1 crore: File at the District Consumer Disputes Redressal Commission in your district.
+- If your claim value is above Rs. 1 crore and up to Rs. 10 crore: File at the State Consumer Disputes Redressal Commission.
+- If your claim value is above Rs. 10 crore: File at the National Consumer Disputes Redressal Commission.
+
+STEP 2 - ENSURE YOUR COMPLAINT IS FILED WITHIN TIME:
+- A complaint must be filed within 2 years from the date on which the cause of action arose.
+- Delay can be condoned if sufficient cause is shown.
+
+STEP 3 - PREPARE YOUR COMPLAINT:
+Your complaint should include:
+- Name, address, and description of the complainant.
+- Name, address, and description of the opposite party (trader/service provider).
+- Facts relating to the complaint and when and where the cause of action arose.
+- Documents in support: receipts, bills, warranty cards, correspondence, etc.
+- Relief claimed.
+
+STEP 4 - FILE THE COMPLAINT:
+- Complaints can be filed in writing or electronically.
+- Pay the prescribed fee (varies by amount claimed, can be paid electronically).
+
+STEP 5 - PROCESS:
+- The Commission will decide on admissibility within 21 days.
+- Notice will be sent to the opposite party.
+- The opposite party is given 30 days (extendable by 15 days) to respond.
+- The case may be referred to mediation if both parties consent.
+- If mediation fails or is not applicable, the Commission will hear the complaint.
+- The complaint should be disposed of within 3 months (or 5 months if testing of goods is required).
+
+STEP 6 - APPEAL:
+- Appeal from District Commission → State Commission (within 45 days).
+- Appeal from State Commission → National Commission (within 30 days).
+- Appeal from National Commission → Supreme Court (within 30 days).
+- In all appeals involving an order to pay money, the appellant must deposit 50% of the amount awarded.
+
+=======================================================
+FREQUENTLY ASKED QUESTIONS
+=======================================================
+
+Q: Can I file a complaint online?
+A: Yes. The Consumer Protection Act, 2019 allows complaints to be filed electronically, and fees can also be paid electronically.
+
+Q: What is the time limit to file a consumer complaint?
+A: You must file your complaint within 2 years from the date on which the cause of action arose. If you file late, you must explain the reason for delay and the Commission must record its reasons for condoning it.
+
+Q: Can I file a complaint for a defective product I bought online?
+A: Yes. The Act specifically includes e-commerce transactions. Buying goods online is considered buying goods for the purposes of this Act.
+
+Q: What is the difference between a defect and deficiency?
+A: A "defect" refers to any fault, imperfection, or shortcoming in goods (products). A "deficiency" refers to any fault, imperfection, shortcoming, or inadequacy in services, including negligence, omission, or withholding of information.
+
+Q: What happens if the opposite party does not comply with the Commission's order?
+A: Non-compliance with an order of the District, State, or National Commission is punishable with imprisonment of 1 month to 3 years, and/or fine of Rs. 25,000 to Rs. 1 lakh.
+
+Q: Can I appeal if I am not satisfied with the District Commission's decision?
+A: Yes. You can appeal to the State Commission within 45 days of the District Commission's order. You must deposit 50% of the amount awarded (if any) before the appeal is entertained.
+
+Q: What is the CCPA and what does it do?
+A: The Central Consumer Protection Authority (CCPA) is a regulatory authority established under the Act to protect, promote, and enforce the rights of consumers as a class. It can investigate unfair trade practices and false advertisements, recall dangerous products, impose penalties, and file complaints before Commissions.
+
+Q: What is product liability?
+A: Product liability is the responsibility of a product manufacturer, service provider, or seller to compensate a consumer for any harm caused by a defective product or deficient service. The consumer must prove one of the conditions specified in the Act to claim compensation.
+
+Q: Are online sellers liable under the Consumer Protection Act, 2019?
+A: Yes. E-commerce entities and electronic service providers are covered under this Act. The Consumer Protection (E-Commerce) Rules, 2020 specify the responsibilities of e-commerce platforms, including requirements for grievance redressal and transparency.
+
+Q: What is mediation in the context of consumer disputes?
+A: Mediation is an alternative dispute resolution process. If both parties consent, the consumer dispute can be referred to a mediator empanelled with the Commission. If a settlement is reached, it is recorded by the Commission as an order. If mediation fails, the Commission continues to hear the dispute.
+
+Q: What are my rights if I was sold spurious or adulterated goods?
+A: You can file a consumer complaint and seek compensation. Additionally, the seller/manufacturer can face criminal penalties ranging from 6 months imprisonment to life imprisonment, and fines, depending on the severity of injury caused (including death).
+
+Q: Can a consumer association file a complaint on my behalf?
+A: Yes. Any voluntary consumer association registered under any law in force can file a complaint on behalf of consumers, even if the specific consumer is not a member of the association.
+
+Q: What qualifies as an unfair trade practice under this Act?
+A: Unfair trade practices include making false representations about goods or services, misleading pricing, offering fake gifts or prizes, selling substandard goods, manufacturing spurious goods, not issuing receipts, refusing to take back defective goods within the stipulated time, and disclosing a consumer's personal information without consent.
+
+Q: What is an unfair contract?
+A: An unfair contract is a contract between a manufacturer/trader/service provider and a consumer that has terms causing significant change in consumer rights, such as excessive security deposits, disproportionate penalties for breach, refusal of early repayment, unilateral termination without cause, or unreasonable charges and obligations on the consumer.
