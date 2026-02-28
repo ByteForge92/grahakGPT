@@ -1,4 +1,3 @@
-# backend.py
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
@@ -16,10 +15,6 @@ from langchain_huggingface import HuggingFaceEmbeddings, HuggingFacePipeline
 from transformers import pipeline
 
 
-# -----------------------------
-# Load & chunk knowledge base
-# (cached so it only runs once)
-# -----------------------------
 @st.cache_resource
 def load_chunks():
     loader = TextLoader("knowledge_base.txt")
@@ -31,11 +26,6 @@ def load_chunks():
     )
     return text_splitter.split_documents(documents)
 
-
-# -----------------------------
-# Embeddings
-# (cached so model loads once)
-# -----------------------------
 @st.cache_resource
 def load_embeddings():
     return HuggingFaceEmbeddings(
@@ -43,12 +33,6 @@ def load_embeddings():
     )
 
 
-# -----------------------------
-# Vector Store
-# Built in-memory (Streamlit Cloud
-# has an ephemeral filesystem, so
-# persisting to disk is unreliable)
-# -----------------------------
 @st.cache_resource
 def load_vector_store():
     chunks = load_chunks()
@@ -57,16 +41,9 @@ def load_vector_store():
         documents=chunks,
         embedding=embedding_model,
         collection_name="consumer_protection_kb"
-        # No persist_directory — stays in memory, cached by Streamlit
     )
 
 
-# -----------------------------
-# LLM
-# device=-1 forces CPU (required
-# on Streamlit Cloud; no MPS/CUDA)
-# -----------------------------
-# NEW - move generation params into generate_kwargs
 @st.cache_resource
 def load_llm():
     gen_pipeline = pipeline(
@@ -79,9 +56,6 @@ def load_llm():
     return HuggingFacePipeline(pipeline=gen_pipeline)
 
 
-# -----------------------------
-# Prompt Template
-# -----------------------------
 prompt_template = """
 You are a helpful consumer rights assistant for India.
 Read the context carefully and answer the question in 2-3 clear sentences.
@@ -101,9 +75,6 @@ PROMPT = PromptTemplate(
 )
 
 
-# -----------------------------
-# Build RAG chain
-# -----------------------------
 @st.cache_resource
 def load_rag_chain():
     vector_store = load_vector_store()
@@ -117,9 +88,6 @@ def load_rag_chain():
     )
 
 
-# -----------------------------
-# Public helpers used by app.py
-# -----------------------------
 def get_vector_store():
     return load_vector_store()
 
@@ -130,9 +98,6 @@ def get_answer(query: str) -> str:
     return rag_chain.invoke(query)
 
 
-# -----------------------------
-# Optional: test via CLI
-# -----------------------------
 if __name__ == "__main__":
     query = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else "What is a consumer dispute?"
     print(f"\n🔎 Query: {query}\n")
