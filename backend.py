@@ -42,10 +42,11 @@ def load_vector_store():
         collection_name="consumer_protection_kb"
     )
 
+
 @st.cache_resource
 def load_llm():
     return ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model="gemini-1.5-flash-latest",
         google_api_key=st.secrets["GOOGLE_API_KEY"]
     )
 
