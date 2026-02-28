@@ -1,13 +1,10 @@
 CONSUMER PROTECTION ACT, 2019 - KNOWLEDGE BASE
-================================================
 Source: The Consumer Protection Act, 2019 (Act No. 35 of 2019)
 Enacted by: Parliament of India
 Date of Assent: 9th August, 2019
 Came into Force: 20th July, 2020
 
-=======================================================
 CHAPTER I: OVERVIEW AND DEFINITIONS
-=======================================================
 
 The Consumer Protection Act, 2019 is an Act to provide for protection of the interests of consumers and to establish authorities for timely and effective administration and settlement of consumer disputes. It repeals and replaces the Consumer Protection Act, 1986. The Act extends to the whole of India except the State of Jammu and Kashmir. It applies to all goods and services unless specifically exempted by the Central Government.
 
@@ -77,9 +74,7 @@ UNFAIR TRADE PRACTICES include:
 - Refusing to take back defective goods or refund consideration within the stipulated period or within 30 days.
 - Disclosing a consumer's personal information given in confidence without the consumer's consent or as permitted by law.
 
-=======================================================
 CHAPTER II: CONSUMER PROTECTION COUNCILS
-=======================================================
 
 CENTRAL CONSUMER PROTECTION COUNCIL:
 The Central Government shall establish the Central Consumer Protection Council (Central Council), which is an advisory council. It is chaired by the Minister-in-charge of the Department of Consumer Affairs. The Central Council shall meet at least once every year. Its object is to render advice on promotion and protection of consumers' rights under the Act.
@@ -90,9 +85,7 @@ Every State Government shall establish a State Consumer Protection Council (Stat
 DISTRICT CONSUMER PROTECTION COUNCIL:
 The State Government shall establish a District Consumer Protection Council (District Council) in every district, chaired by the Collector of the district. The District Council shall meet at least twice every year. Its object is to render advice on promotion and protection of consumer rights within the district.
 
-=======================================================
 CHAPTER III: CENTRAL CONSUMER PROTECTION AUTHORITY (CCPA)
-=======================================================
 
 ESTABLISHMENT:
 The Central Government shall establish the Central Consumer Protection Authority (Central Authority) to regulate matters relating to violation of rights of consumers, unfair trade practices, and false or misleading advertisements which are prejudicial to the interests of public and consumers, and to promote, protect and enforce the rights of consumers as a class. The Central Authority consists of a Chief Commissioner and such number of other Commissioners as may be prescribed. Its headquarters are in the National Capital Region of Delhi.
@@ -127,9 +120,7 @@ PENALTIES FOR FALSE OR MISLEADING ADVERTISEMENTS:
 APPEALS FROM CCPA ORDERS:
 A person aggrieved by any order of the Central Authority (under sections 20 and 21) may appeal to the National Commission within 30 days from the date of receipt of the order.
 
-=======================================================
 CHAPTER IV: CONSUMER DISPUTES REDRESSAL COMMISSIONS (CDRCs)
-=======================================================
 
 THREE-TIER SYSTEM:
 Consumer Disputes Redressal Commissions are established at three levels — District, State, and National.
@@ -211,9 +202,7 @@ PROCEEDINGS:
 - The Commission has powers of a civil court for summoning witnesses, requiring production of documents, receiving evidence on affidavit, and issuing commissions.
 - Every proceeding is deemed a judicial proceeding.
 
-=======================================================
 CHAPTER V: MEDIATION
-=======================================================
 
 CONSUMER MEDIATION CELL:
 The State Government shall establish a consumer mediation cell attached to each District and State Commission. The Central Government shall establish a consumer mediation cell attached to the National Commission. The cell maintains a list of empanelled mediators, list of cases handled, and records of proceedings.
@@ -227,9 +216,7 @@ Mediation is held in the consumer mediation cell attached to the respective Comm
 SETTLEMENT THROUGH MEDIATION:
 If an agreement is reached (wholly or in part), its terms shall be reduced to writing and signed by the parties. The mediator shall prepare a settlement report and forward it to the Commission. The Commission shall pass an order recording the settlement within 7 days. If no agreement is reached, the Commission shall continue to hear the consumer dispute.
 
-=======================================================
 CHAPTER VI: PRODUCT LIABILITY
-=======================================================
 
 PRODUCT LIABILITY ACTION:
 A product liability action may be brought by a complainant against a product manufacturer, product service provider, or product seller for any harm caused by a defective product.
@@ -292,9 +279,7 @@ No court shall take cognizance of any offence under sections 88 and 89 except on
 VEXATIOUS SEARCH (Section 93):
 Any officer who conducts a search or seizure knowing that there are no reasonable grounds for doing so shall be punished with imprisonment up to 1 year and/or fine up to Rs. 10,000.
 
-=======================================================
 CHAPTER VIII: MISCELLANEOUS PROVISIONS
-=======================================================
 
 E-COMMERCE AND DIRECT SELLING (Section 94):
 The Central Government may take such measures as may be prescribed to prevent unfair trade practices in e-commerce, direct selling, etc., and to protect the interests and rights of consumers. The Consumer Protection (E-Commerce) Rules, 2020 have been notified under this provision. These rules outline the responsibilities of e-commerce entities and specify their liabilities, including provisions for customer grievance redressal.
@@ -311,9 +296,7 @@ No suit, prosecution, or other legal proceeding shall lie against Presidents, me
 ACT NOT IN DEROGATION OF OTHER LAWS (Section 100):
 The provisions of this Act are in addition to and not in derogation of any other law for the time being in force.
 
-=======================================================
 PRACTICAL GUIDE: HOW TO FILE A CONSUMER COMPLAINT
-=======================================================
 
 STEP 1 - DETERMINE THE APPROPRIATE FORUM:
 - If your claim value is up to Rs. 1 crore: File at the District Consumer Disputes Redressal Commission in your district.
@@ -350,9 +333,7 @@ STEP 6 - APPEAL:
 - Appeal from National Commission → Supreme Court (within 30 days).
 - In all appeals involving an order to pay money, the appellant must deposit 50% of the amount awarded.
 
-=======================================================
 FREQUENTLY ASKED QUESTIONS
-=======================================================
 
 Q: Can I file a complaint online?
 A: Yes. The Consumer Protection Act, 2019 allows complaints to be filed electronically, and fees can also be paid electronically.
