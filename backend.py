@@ -71,7 +71,7 @@ def load_vector_store():
 def load_llm():
     gen_pipeline = pipeline(
         "text2text-generation",
-        model="google/flan-t5-small",
+        model="google/flan-t5-base",
         device=-1,
         max_new_tokens=512,
         model_kwargs={"temperature": 0.7}
@@ -83,15 +83,16 @@ def load_llm():
 # Prompt Template
 # -----------------------------
 prompt_template = """
-You are a helpful assistant that answers questions based on the provided context.
-Only use the information from the context. If the answer is not contained in the context, say you cannot answer.
+You are a helpful consumer rights assistant for India.
+Read the context carefully and answer the question in 2-3 clear sentences.
+Give a direct, specific answer. Do not copy the context word for word.
 
 Context:
 {context}
 
 Question: {question}
 
-Answer:
+Answer in 2-3 sentences:
 """
 
 PROMPT = PromptTemplate(
