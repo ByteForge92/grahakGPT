@@ -66,15 +66,15 @@ def load_vector_store():
 # device=-1 forces CPU (required
 # on Streamlit Cloud; no MPS/CUDA)
 # -----------------------------
+# NEW - move generation params into generate_kwargs
 @st.cache_resource
 def load_llm():
     gen_pipeline = pipeline(
         "text2text-generation",
-        model="google/flan-t5-base",
-        device=-1,           # CPU — works on Streamlit Cloud
+        model="google/flan-t5-small",
+        device=-1,
         max_new_tokens=512,
-        temperature=0.7,
-        top_p=0.9
+        model_kwargs={"temperature": 0.7}
     )
     return HuggingFacePipeline(pipeline=gen_pipeline)
 
