@@ -4,7 +4,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import os
 import streamlit as st
-
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
@@ -12,7 +12,6 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_huggingface import HuggingFaceEmbeddings, HuggingFacePipeline
-from transformers import pipeline
 
 
 @st.cache_resource
@@ -45,15 +44,12 @@ def load_vector_store():
 
 
 @st.cache_resource
+@st.cache_resource
 def load_llm():
-    gen_pipeline = pipeline(
-        "text2text-generation",
-        model="google/flan-t5-base",
-        device=-1,
-        max_new_tokens=512,
-        model_kwargs={"temperature": 0.7}
+    return ChatGoogleGenerativeAI(
+        model="gemini-pro",
+        google_api_key=os.getenv("GOOGLE_API_KEY")
     )
-    return HuggingFacePipeline(pipeline=gen_pipeline)
 
 
 prompt_template = """
