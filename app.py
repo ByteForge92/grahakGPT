@@ -23,7 +23,7 @@ st.markdown(
 # -----------------------------
 col1, col2, col3 = st.columns([1, 6, 1])
 with col2:
-    st.title("grahak-GPT ⚖️🏛️")
+    st.title("ConsumerAnalyticsGPT ⚖️🏛️")
 
 st.write("Ask questions about consumer protection and get instant answers!")
 
