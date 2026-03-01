@@ -60,7 +60,7 @@ def load_vector_store():
 # -----------------------------
 def load_llm():
     return ChatGroq(
-        model="llama3-70b-8192",
+        model="llama-3.1-8b-instant",
         api_key=st.secrets["GROQ_API_KEY"],
         temperature=0
     )
