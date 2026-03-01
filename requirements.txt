@@ -5,16 +5,14 @@ langchain-community
 langchain-chroma
 langchain-huggingface
 langchain-text-splitters
-langchain-google-genai
-
-google-generativeai
+langchain-groq
 
 chromadb==0.4.24
 pysqlite3-binary
+numpy==1.26.4
 
 sentence-transformers
 transformers
 torch
 accelerate
-
-numpy==1.26.4
+groq
