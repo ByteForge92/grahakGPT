@@ -2,21 +2,23 @@ import sys
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
-
-
 import streamlit as st
 from backend import get_answer, get_vector_store
 
 # -----------------------------
 # Page config
 # -----------------------------
-st.set_page_config(page_title="Consumer Rights Assistant", layout="wide")
+st.set_page_config(
+    page_title="Consumer Court AI Assistant",
+    layout="wide"
+)
 
+# Subtle styling
 st.markdown(
     """
     <style>
     .block-container {
-        padding-top: 1rem;
+        padding-top: 2rem;
     }
     </style>
     """,
@@ -24,45 +26,95 @@ st.markdown(
 )
 
 # -----------------------------
-# Title
+# Title Section
 # -----------------------------
-col1, col2, col3 = st.columns([1, 6, 1])
-with col2:
-    st.title("Consumer Analytics Assisstant⚖️🏛️")
+st.title("Consumer Court AI Assistant ⚖️🏛️")
+st.caption("Ask questions about consumer protection law in India and get instant guidance.")
 
-st.write("Ask questions about consumer protection and get instant answers!")
-
-# Warm up the vector store and models on first load
-# (shows a spinner instead of freezing silently)
-with st.spinner("⏳ Loading models and knowledge base (first load takes ~1 min)..."):
-    vector_store = get_vector_store()
-
-st.write("\n" * 4)
+st.divider()
 
 # -----------------------------
-# User query input
+# Warm-up vector store (first load)
 # -----------------------------
-st.write("ENTER YOUR QUESTION HERE:")
-st.write("\n" * 2)
+@st.cache_resource(show_spinner=False)
+def warm_up():
+    return get_vector_store()
 
-query = st.text_input("", "")
+with st.spinner("⏳ Initializing legal knowledge base..."):
+    vector_store = warm_up()
 
-if query:
-    with st.spinner("🤔 Thinking and generating a response..."):
+# -----------------------------
+# Sample Question Buttons
+# -----------------------------
+st.markdown("### 🔎 Try a Sample Question")
 
-        # Retrieve top 3 documents
-        retrieved_docs = vector_store.similarity_search(query, k=3)
+col1, col2 = st.columns(2)
 
-        with st.expander("📄 Retrieved Context"):
-            if retrieved_docs:
-                for i, doc in enumerate(retrieved_docs, start=1):
-                    content = doc.page_content
-                    keywords = query.lower().split()
-                    for kw in keywords:
-                        content = content.replace(kw, f"**{kw}**")
-                    st.markdown(f"**Doc {i}:**\n\n" + content[:500] + "...\n")
+if col1.button("Defective Product Complaint"):
+    st.session_state.sample_question = "What can I do if I receive a defective product?"
 
-        # Generate answer
-        answer = get_answer(query)
-        st.subheader("💡 Answer")
-        st.write(answer)
+if col2.button("Consumer Court Jurisdiction"):
+    st.session_state.sample_question = "Explain the jurisdiction hierarchy of consumer courts in India."
+
+# -----------------------------
+# Chat History
+# -----------------------------
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+# If sample button used
+if "sample_question" in st.session_state:
+    prompt = st.session_state.sample_question
+    del st.session_state.sample_question
+else:
+    prompt = None
+
+# Display previous conversation
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+# -----------------------------
+# User Input
+# -----------------------------
+user_input = st.chat_input("Ask your consumer law question...")
+
+if user_input:
+    prompt = user_input
+
+if prompt:
+
+    # Add user message to chat
+    st.session_state.messages.append({"role": "user", "content": prompt})
+
+    with st.chat_message("assistant"):
+        with st.spinner("⚖️ Analyzing legal provisions and generating response..."):
+
+            # Retrieve context
+            retrieved_docs = vector_store.similarity_search(prompt, k=3)
+
+            # Show retrieved context in sidebar
+            with st.sidebar:
+                st.subheader("📄 Retrieved Legal Context")
+                if retrieved_docs:
+                    for i, doc in enumerate(retrieved_docs, start=1):
+                        st.markdown(f"**Doc {i}:**")
+                        st.write(doc.page_content[:400] + "...")
+                else:
+                    st.write("No relevant documents found.")
+
+            # Generate answer
+            answer = get_answer(prompt)
+            st.markdown(answer)
+
+    # Save assistant response
+    st.session_state.messages.append({"role": "assistant", "content": answer})
+
+# -----------------------------
+# Footer Disclaimer
+# -----------------------------
+st.divider()
+st.caption(
+    "⚠️ This tool provides general informational assistance based on the Consumer Protection Act, 2019. "
+    "It is not a substitute for professional legal advice."
+)
