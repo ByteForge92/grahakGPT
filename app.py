@@ -28,7 +28,7 @@ st.markdown(
 # -----------------------------
 # Title Section
 # -----------------------------
-st.title("Consumer Court AI Assistant ⚖️🏛️")
+st.title("Consumer Law AI Assistant ⚖️🏛️")
 st.caption("Ask questions about consumer protection law in India and get instant guidance.")
 
 st.divider()
