@@ -1,19 +1,18 @@
-streamlit>=1.32.0
+streamlit
 
-langchain==0.2.6
-langchain-core==0.2.10
-langchain-community==0.2.6
-langchain-chroma==0.1.2
-langchain-huggingface==0.0.3
-langchain-text-splitters==0.2.1
+langchain
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-text-splitters
+langchain-google-genai
 
-langchain-google-genai==2.1.12
-google-generativeai==0.8.4
+google-generativeai
 
 chromadb==0.4.24
 pysqlite3-binary
 
-sentence-transformers==2.7.0
-transformers==4.41.2
-torch>=2.2.0
-accelerate>=0.29.0
+sentence-transformers
+transformers
+torch
+accelerate
