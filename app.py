@@ -34,7 +34,16 @@ st.caption("Ask questions about consumer protection law in India and get instant
 st.divider()
 
 # -----------------------------
-# Warm-up vector store (first load)
+# Sidebar Controls
+# -----------------------------
+st.sidebar.header("Controls")
+
+if st.sidebar.button("🧹 Clear Chat"):
+    st.session_state.messages = []
+    st.rerun()
+
+# -----------------------------
+# Warm-up vector store
 # -----------------------------
 @st.cache_resource(show_spinner=False)
 def warm_up():
@@ -44,12 +53,30 @@ with st.spinner("⏳ Initializing legal knowledge base..."):
     vector_store = warm_up()
 
 # -----------------------------
+# Simple Case Type Detection (Feature 5)
+# -----------------------------
+def detect_case_type(query):
+    q = query.lower()
+
+    if "defect" in q or "damaged" in q or "faulty" in q:
+        return "Defective Goods"
+    elif "refund" in q or "return" in q:
+        return "Refund / Replacement Issue"
+    elif "service" in q or "delay" in q:
+        return "Deficiency in Service"
+    elif "compensation" in q or "harassment" in q:
+        return "Compensation Claim"
+    elif "jurisdiction" in q or "commission" in q:
+        return "Court Jurisdiction Query"
+    else:
+        return "General Consumer Dispute"
+
+# -----------------------------
 # Chat History
 # -----------------------------
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Display previous conversation
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
@@ -61,16 +88,19 @@ user_input = st.chat_input("Ask your consumer law question...")
 
 if user_input:
 
-    # Add user message to chat
+    # Add user message
     st.session_state.messages.append({"role": "user", "content": user_input})
 
     with st.chat_message("assistant"):
         with st.spinner("⚖️ Analyzing legal provisions and generating response..."):
 
+            # Detect case type
+            case_type = detect_case_type(user_input)
+
             # Retrieve context
             retrieved_docs = vector_store.similarity_search(user_input, k=3)
 
-            # Show retrieved context in sidebar
+            # Sidebar context
             with st.sidebar:
                 st.subheader("📄 Retrieved Legal Context")
                 if retrieved_docs:
@@ -82,13 +112,25 @@ if user_input:
 
             # Generate answer
             answer = get_answer(user_input)
+
+            # Structured Answer Section (Feature 3)
+            st.markdown(f"**🗂 Case Type Detected:** {case_type}")
+            st.markdown("### 💡 Legal Guidance")
             st.markdown(answer)
+
+            # Copy Answer Button
+            st.download_button(
+                label="📋 Copy Answer as Text",
+                data=answer,
+                file_name="consumer_legal_answer.txt",
+                mime="text/plain"
+            )
 
     # Save assistant response
     st.session_state.messages.append({"role": "assistant", "content": answer})
 
 # -----------------------------
-# Footer Disclaimer
+# Footer
 # -----------------------------
 st.divider()
 st.caption(
