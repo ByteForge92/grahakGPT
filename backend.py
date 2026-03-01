@@ -45,8 +45,10 @@ def load_vector_store():
 
 @st.cache_resource
 def load_llm():
+    print("Using model gemini-1.5-flash")   # 👈 add this line
+    print("KEY EXISTS:", bool(st.secrets.get("GOOGLE_API_KEY")))
     return ChatGoogleGenerativeAI(
-        model="gemini-pro",
+        model="gemini-1.5-flash",
         google_api_key=st.secrets["GOOGLE_API_KEY"]
     )
 
