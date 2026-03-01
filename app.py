@@ -44,30 +44,10 @@ with st.spinner("⏳ Initializing legal knowledge base..."):
     vector_store = warm_up()
 
 # -----------------------------
-# Sample Question Buttons
-# -----------------------------
-st.markdown("### 🔎 Try a Sample Question")
-
-col1, col2 = st.columns(2)
-
-if col1.button("Defective Product Complaint"):
-    st.session_state.sample_question = "What can I do if I receive a defective product?"
-
-if col2.button("Consumer Court Jurisdiction"):
-    st.session_state.sample_question = "Explain the jurisdiction hierarchy of consumer courts in India."
-
-# -----------------------------
 # Chat History
 # -----------------------------
 if "messages" not in st.session_state:
     st.session_state.messages = []
-
-# If sample button used
-if "sample_question" in st.session_state:
-    prompt = st.session_state.sample_question
-    del st.session_state.sample_question
-else:
-    prompt = None
 
 # Display previous conversation
 for message in st.session_state.messages:
@@ -80,18 +60,15 @@ for message in st.session_state.messages:
 user_input = st.chat_input("Ask your consumer law question...")
 
 if user_input:
-    prompt = user_input
-
-if prompt:
 
     # Add user message to chat
-    st.session_state.messages.append({"role": "user", "content": prompt})
+    st.session_state.messages.append({"role": "user", "content": user_input})
 
     with st.chat_message("assistant"):
         with st.spinner("⚖️ Analyzing legal provisions and generating response..."):
 
             # Retrieve context
-            retrieved_docs = vector_store.similarity_search(prompt, k=3)
+            retrieved_docs = vector_store.similarity_search(user_input, k=3)
 
             # Show retrieved context in sidebar
             with st.sidebar:
@@ -104,7 +81,7 @@ if prompt:
                     st.write("No relevant documents found.")
 
             # Generate answer
-            answer = get_answer(prompt)
+            answer = get_answer(user_input)
             st.markdown(answer)
 
     # Save assistant response
