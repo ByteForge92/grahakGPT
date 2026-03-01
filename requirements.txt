@@ -16,3 +16,5 @@ sentence-transformers
 transformers
 torch
 accelerate
+
+numpy==1.26.4
