@@ -4,7 +4,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import streamlit as st
 from backend import get_answer, get_vector_store
-
+import streamlit.components.v1 as components
 # -----------------------------
 # Page config
 # -----------------------------
@@ -119,12 +119,15 @@ if user_input:
             st.markdown(answer)
 
             # Copy Answer Button
-            st.download_button(
-                label="📋 Copy Answer as Text",
-                data=answer,
-                file_name="consumer_legal_answer.txt",
-                mime="text/plain"
-            )
+         
+
+            copy_script = f"""
+            <button onclick="navigator.clipboard.writeText(`{answer}`)">
+            📋 Copy Answer
+            </button>
+            """
+            
+            components.html(copy_script, height=40)
 
     # Save assistant response
     st.session_state.messages.append({"role": "assistant", "content": answer})
