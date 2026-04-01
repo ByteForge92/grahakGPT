@@ -13,9 +13,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 
 
-# -----------------------------
-# Load & Split Documents
-# -----------------------------
+
 @st.cache_resource
 def load_chunks():
     loader = TextLoader("knowledge_base.txt")
@@ -30,9 +28,7 @@ def load_chunks():
     return text_splitter.split_documents(documents)
 
 
-# -----------------------------
-# Embeddings
-# -----------------------------
+
 @st.cache_resource
 def load_embeddings():
     return HuggingFaceEmbeddings(
@@ -40,9 +36,7 @@ def load_embeddings():
     )
 
 
-# -----------------------------
-# Vector Store
-# -----------------------------
+
 @st.cache_resource
 def load_vector_store():
     chunks = load_chunks()
@@ -55,9 +49,7 @@ def load_vector_store():
     )
 
 
-# -----------------------------
-# LLM (Groq)
-# -----------------------------
+
 def load_llm():
     return ChatGroq(
         model="llama-3.1-8b-instant",
@@ -65,10 +57,6 @@ def load_llm():
         temperature=0
     )
 
-
-# -----------------------------
-# Prompt
-# -----------------------------
 prompt_template = """
 You are a helpful consumer rights assistant for India.
 
@@ -91,9 +79,7 @@ PROMPT = PromptTemplate(
 )
 
 
-# -----------------------------
-# RAG Chain
-# -----------------------------
+
 @st.cache_resource
 def load_rag_chain():
     vector_store = load_vector_store()
@@ -110,9 +96,7 @@ def load_rag_chain():
     return rag_chain
 
 
-# -----------------------------
-# Public Functions
-# -----------------------------
+
 def get_vector_store():
     return load_vector_store()
 
@@ -125,9 +109,7 @@ def get_answer(query: str) -> str:
         return f"⚠️ LLM Error: {str(e)}"
 
 
-# -----------------------------
-# CLI Debug Mode
-# -----------------------------
+
 if __name__ == "__main__":
     query = "What is a consumer dispute?"
 
