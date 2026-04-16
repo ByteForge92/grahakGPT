@@ -42,10 +42,10 @@ def load_vector_store():
     chunks = load_chunks()
     embedding_model = load_embeddings()
 
-return FAISS.from_documents(
-    documents=chunks,
-    embedding=embedding_model
-)
+    return FAISS.from_documents(
+        documents=chunks,
+        embedding=embedding_model
+    )
 
 
 
