@@ -42,11 +42,10 @@ def load_vector_store():
     chunks = load_chunks()
     embedding_model = load_embeddings()
 
-    return Chroma.from_documents(
-        documents=chunks,
-        embedding=embedding_model,
-        collection_name="consumer_protection_kb"
-    )
+return FAISS.from_documents(
+    documents=chunks,
+    embedding=embedding_model
+)
 
 
 
